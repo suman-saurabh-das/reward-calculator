@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Reward points calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project created using [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Problem statement
 
-In the project directory, you can run:
+A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.  
 
-### `npm start`
+A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each transaction. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points). 
+  
+Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running the project
 
-### `npm test`
+### Clone the project from github repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`https://github.com/suman-saurabh-das/`
 
-### `npm run build`
+### Install the dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Start the json-server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npx json-server --watch ./src/data/db.json --port 8000`
 
-### `npm run eject`
+### Run the app in development mode.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm run start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Launch the test runner in interactive watch mode.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm test`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Build the app for production to the `build` folder.
 
-## Learn More
+`npm run build`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Sample data
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To modify the json-server data, make changes to the file in src/data/db.json
 
-### Code Splitting
+## Approach
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Step 1 - Fetch the data using axios from static server.
+- Step 2 - Calculate the points for given transactions for last 3 months.
+- Step 3 - Display the data in tabular format.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+List of contributors:
+- [Saurabh Das - Developer](dsumansaurabh@gmail.com)

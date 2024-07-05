@@ -1,0 +1,108 @@
+{
+  "transactionData": [
+    {
+      "customerId": 1,
+      "customerName": "Tony Stark",
+      "transactions": [
+        {
+          "transactionId": 101,
+          "purchaseAmount": 150,
+          "dateOfTransaction": "06/25/2024"
+        },
+        {
+          "transactionId": 102,
+          "purchaseAmount": 200,
+          "dateOfTransaction": "06/20/2024"
+        },
+        {
+          "transactionId": 103,
+          "purchaseAmount": 300,
+          "dateOfTransaction": "05/15/2024"
+        },
+        {
+          "transactionId": 104,
+          "purchaseAmount": 250,
+          "dateOfTransaction": "04/17/2024"
+        }
+      ]
+    },
+    {
+      "customerId": 2,
+      "customerName": "Steve Rogers",
+      "transactions": [
+        {
+          "transactionId": 201,
+          "purchaseAmount": 55,
+          "dateOfTransaction": "04/24/2024"
+        },
+        {
+          "transactionId": 202,
+          "purchaseAmount": 120,
+          "dateOfTransaction": "05/08/2024"
+        },
+        {
+          "transactionId": 203,
+          "purchaseAmount": 320,
+          "dateOfTransaction": "06/17/2024"
+        },
+        {
+          "transactionId": 204,
+          "purchaseAmount": 270,
+          "dateOfTransaction": "05/10/2024"
+        }
+      ]
+    },
+    {
+      "customerId": 3,
+      "customerName": "Peter Parker",
+      "transactions": [
+        {
+          "transactionId": 301,
+          "purchaseAmount": 90,
+          "dateOfTransaction": "05/08/2024"
+        },
+        {
+          "transactionId": 302,
+          "purchaseAmount": 30,
+          "dateOfTransaction": "04/23/2024"
+        },
+        {
+          "transactionId": 303,
+          "purchaseAmount": 330,
+          "dateOfTransaction": "03/23/2024"
+        }
+      ]
+    },
+    {
+      "customerId": 4,
+      "customerName": "Natasha Romanoff",
+      "transactions": [
+        {
+          "transactionId": 401,
+          "purchaseAmount": 200,
+          "dateOfTransaction": "04/13/2024"
+        },
+        {
+          "transactionId": 402,
+          "purchaseAmount": 320,
+          "dateOfTransaction": "05/10/2024"
+        },
+        {
+          "transactionId": 403,
+          "purchaseAmount": 400,
+          "dateOfTransaction": "06/19/2024"
+        },
+        {
+          "transactionId": 404,
+          "purchaseAmount": 700,
+          "dateOfTransaction": "02/19/2024"
+        },
+        {
+          "transactionId": 405,
+          "purchaseAmount": 150,
+          "dateOfTransaction": "03/19/2024"
+        }
+      ]
+    }
+  ]
+}
