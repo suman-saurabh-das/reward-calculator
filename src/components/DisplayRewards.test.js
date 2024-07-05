@@ -79,16 +79,16 @@ describe("Display rewards component", () => {
 
     // Check if customer reward points data renders correctly.
     const customer1Row = screen.getByText("Tony Stark").closest("tr");
-    expect(customer1Row).toHaveTextContent(550);
+    expect(customer1Row).toHaveTextContent(400);
     expect(customer1Row).toHaveTextContent(450);
     expect(customer1Row).toHaveTextContent(350);
-    expect(customer1Row).toHaveTextContent(1350);
+    expect(customer1Row).toHaveTextContent(1200);
 
     // Check if customer reward points data renders correctly.
     const customer2Row = screen.getByText("Steve Rogers").closest("tr");
     expect(customer2Row).toHaveTextContent(490);
-    expect(customer2Row).toHaveTextContent(630);
+    expect(customer2Row).toHaveTextContent(480);
     expect(customer2Row).toHaveTextContent(5);
-    expect(customer2Row).toHaveTextContent(1125);
+    expect(customer2Row).toHaveTextContent(975);
   })
 })

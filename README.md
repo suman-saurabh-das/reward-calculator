@@ -38,9 +38,25 @@ Given a record of every transaction during a three month period, calculate the r
 
 `npm run build`
 
+## Screen shots of application
+
+### Application loading state
+
+![App Screenshot](https://drive.google.com/uc?export=view&id=1T7Z-shaSDCPgOlTWu9ob5lcv1GIrw88y)
+
+### Application running state
+
+![App Screenshot](https://drive.google.com/uc?export=view&id=1J-J4Bwq0-8k7-fX_Hgur782kXvAAaEtz)
+
+### Application network error (If JSON server is not running)
+
+![App Screenshot](https://drive.google.com/uc?export=view&id=1HFM97OQDOJbzGsIbI5Bu4prELj6K7d9J)
+
 ## Sample data
 
 To modify the json-server data, make changes to the file in src/data/db.json
+
+![App Screenshot](https://drive.google.com/uc?export=view&id=1VxYfhT1tN5fi5FJeSVEUsLcvs91Zd08w)
 
 ## Approach
 

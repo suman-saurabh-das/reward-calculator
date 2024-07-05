@@ -21,16 +21,20 @@ const DisplayRewards = () => {
             <div className="table-container">
               <table className="rewards-table">
                 <thead>
-                  <tr>
-                    <th>Customer id</th>
-                    <th>Customer name</th>
-                    {
-                      TABLE_HEADINGS.map((item, index) => (
-                        <th key={index}>{`Reward points for month ${index + 1}`}</th>
-                      ))
-                    }
-                    <th>Total reward points</th>
-                  </tr>
+                  {
+                    TABLE_HEADINGS.map(item => (
+                      <tr key={item.id}>
+                        <th>{item.id}</th>
+                        <th>{item.name}</th>
+                        {
+                          item.monthColumns.map((item, index) => (
+                            <th key={index}>{`Reward points for month ${index + 1}`}</th>
+                          ))
+                        }
+                        <th>{item.total}</th>
+                      </tr>
+                    ))
+                  }
                 </thead>
                 <tbody>
                   {
