@@ -16,7 +16,7 @@ Given a record of every transaction during a three month period, calculate the r
 
 ### Clone the project from github repository
 
-`[https://github.com/suman-saurabh-das/](https://github.com/suman-saurabh-das/reward-calculator.git)`
+`https://github.com/suman-saurabh-das/reward-calculator.git`
 
 ### Install the dependencies
 
