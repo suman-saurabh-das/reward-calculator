@@ -1,4 +1,4 @@
-![image](https://github.com/suman-saurabh-das/reward-calculator/assets/95558143/41529bf7-ff98-4629-b0d1-e27c6805f1fd)# Reward points calculator
+# Reward points calculator
 
 Project created using [Create React App](https://github.com/facebook/create-react-app).
 
