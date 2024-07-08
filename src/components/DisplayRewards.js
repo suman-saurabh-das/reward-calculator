@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './DisplayRewards.css'
-import { fetchCustomerData } from '../utils'
+import { fetchCustomerData } from '../utils/calculateRewards'
 import { TABLE_HEADINGS } from '../utils/constants'
 
 const DisplayRewards = () => {

@@ -1,4 +1,4 @@
-import { MIN_REWARD, MAX_REWARD, NUMBER_OF_MONTHS } from "../utils/constants";
+import { MIN_REWARD, MAX_REWARD, NUMBER_OF_MONTHS } from "./constants.js";
 import { getCustomerData } from '../services/apiService.js';
 import logger from '../logger.js';
 
