@@ -50,7 +50,7 @@ Given a record of every transaction during a three month period, calculate the r
 
 ### Application network error (If JSON server is not running)
 
-![App Screenshot](https://drive.google.com/uc?export=view&id=1HFM97OQDOJbzGsIbI5Bu4prELj6K7d9J)
+![App Screenshot](https://drive.google.com/uc?export=view&id=1xjy9i4rnVtfZJtYa7DPXww2-1O63w05l)
 
 ## Sample data
 
